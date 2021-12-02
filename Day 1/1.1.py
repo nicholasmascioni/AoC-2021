@@ -3,7 +3,7 @@ y = 1
 measurements = []
 counter = 0
 
-with open('AoC-2021/Day 1/input1.1.txt') as f:
+with open('AoC-2021/Day 1/input1.txt') as f:
     for line in f:
         measurements.append(int(line.strip())) # Puts the input data in a list and removes newline characters
 
